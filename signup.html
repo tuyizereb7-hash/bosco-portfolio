@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Sign Up | Bosco Portfolio</title>
+
+    <link rel="stylesheet" href="login.css">
+     <link rel="stylesheet" href="signup.css">
+
+
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+
+    <div class="left">
+
+        <h1>Create Account</h1>
+
+        <p>
+            Join Bosco Portfolio and explore modern
+            Frontend Development projects.
+        </p>
+
+        <img src="./images/Screenshot from 2026-09-17 11-24-45.png"
+        alt="Bosco">
+        
+
+    </div>
+    <a href="./dashboard.html" class="CLICK-HERE">CLICK HERE <==> </a>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+        <div class="login-box">
+
+            <h2>Sign Up</h2>
+
+            <form id="signupForm">
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <input
+                    type="text"
+                    id="name"
+                    placeholder="Full Name"
+                    required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required>
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                    required>
+
+
+                    <span id="togglePassword">
+
+                        <i class="fa-solid fa-eye"></i>
+
+                    </span>
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Confirm Password"
+                    required>
+
+
+                </div>
+
+                <button type="submit" class="login-btn">
+
+                    Create Account
+
+                </button>
+
+                <p id="error"></p>
+
+                <div class="signup-link">
+
+
+                    Already have an account?
+
+
+                    <a href="login.html">
+
+                        Login
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="signup.js"></script>
+</body>
+</html>

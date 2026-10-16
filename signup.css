@@ -1,0 +1,36 @@
+/* .CLICK-HERE{
+    padding: 2px 4px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    height: 120px;
+    width: 110px;
+}
+
+.CLICK-HERE:hover {
+    background-color: green;
+    
+} */
+.CLICK-HERE {
+    display: block;
+    width: fit-content;
+    margin-right: -10px;
+    margin-top: 850px;
+    margin-left: 100px;
+    padding: 12px 24px;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border-radius: 28px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 150px;
+    height: 70px;
+}
+
+.CLICK-HERE:hover {
+    background-color: blue;
+}
