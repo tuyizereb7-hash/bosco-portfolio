@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#eef6ff;
+    background:white;
 }
 
 .container{
@@ -21,12 +21,12 @@ header{
 }
 
 header h1{
-    color:#0b84e0;
+    color:green;
 }
 
 header a{
     text-decoration:none;
-    background:#0b84e0;
+    background:green;
     color:white;
     padding:12px 25px;
     border-radius:25px;
@@ -53,7 +53,7 @@ header a{
 
 .blog-card i{
     font-size:50px;
-    color:#0b84e0;
+    color:green;
     margin-bottom:20px;
 }
 
@@ -67,7 +67,7 @@ header a{
 }
 
 .blog-card button{
-    background:#0b84e0;
+    background:green;
     color:white;
     border:none;
     padding:12px 25px;
@@ -76,7 +76,7 @@ header a{
 }
 
 .blog-card button:hover{
-    background:#075ea5;
+    background:green;
 }
 
 @media(max-width:900px){
@@ -89,6 +89,10 @@ grid-template-columns:1fr;
 
 }
 .blog-images{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+}
+.blog-card img{
+    height: 300px;
+    width: 300px;
 }
