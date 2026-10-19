@@ -125,11 +125,12 @@ justify-content: space-around;
     box-shadow: 0 10px 20px rgba(56,189,248,0.4);
 }
 .home-image img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 8px solid var(--primary-color);
+    margin-left: 20px;
 }
 /* =========================
    GENERAL SECTION STYLE
