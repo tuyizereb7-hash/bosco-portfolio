@@ -29,12 +29,73 @@
             <a href="dashboard.html">Back Dashboard</a>
 
         </header>
+<div class="search-box">
 
-        <section class="blog-container">
+    <input
+        type="text"
+        id="search-story"
+        placeholder="Search stories..."
+    >
+
+</div>
+
+<section class="blog-container" id="stories-container">
+
+</section>
+
+
+        <section class="blog-container" id="stories-container">
+
+</section>
+<div class="modal" id="story-modal">
+
+    <div class="modal-content">
+
+        <span id="close-modal">
+            &times;
+        </span>
+
+        <h2 id="modal-title"></h2>
+
+        <p id="modal-content"></p>
+        <hr>
+
+<h3>
+Comments
+</h3>
+
+
+<input 
+type="text"
+id="comment-name"
+placeholder="Your name"
+>
+
+
+<textarea 
+id="comment-message"
+placeholder="Write a comment..."
+></textarea>
+
+
+<button id="send-comment">
+Send Comment
+</button>
+
+
+<div id="comments-list">
+
+</div>
+
+    </div>
+
+</div>
+
+        <!-- <section class="blog-container">
 
             <div class="blog-card">
 
-                <!-- <i class="fa-solid fa-globe"></i> -->
+                <i class="fa-solid fa-globe"></i>
                 <img src="./images/bussiness.jpeg" alt="Bosco" class="blog-images">
 
                 <h2>Why Websites Help Businesses</h2>
@@ -44,13 +105,13 @@
                     showcase products and services, and increase sales.
                 </p>
 
-                <button> <----> </button>
+                <button>  </button>
 
             </div>
 
             <div class="blog-card">
 
-                <!-- <i class="fa-solid fa-laptop-code"></i> -->
+                <i class="fa-solid fa-laptop-code"></i>
                 <img src="./images/coding ttt.jpeg" alt="Bosco" class="blog-images">
 
                 <h2>My Coding Journey</h2>
@@ -60,13 +121,13 @@
                     GitHub, Figma and Firebase while building real projects.
                 </p>
 
-                <button> <----> </button>
+                <button>  </button>
 
             </div>
 
             <div class="blog-card">
 
-                <!-- <i class="fa-solid fa-microchip"></i> -->
+                <i class="fa-solid fa-microchip"></i>
                 <img src="./images/emergence Technology.jpeg" alt="Bosco" class="blog-images">
 
                 <h2>Emerging Technology</h2>
@@ -76,13 +137,14 @@
                     continue to transform the way people live and work.
                 </p>
 
-                <button> <----> </button>
+                <button> </button>
 
             </div>
 
-        </section>
+        </section> -->
 
     </div>
+    <script type="module" src="blog.js"></script>
 
 </body>
 

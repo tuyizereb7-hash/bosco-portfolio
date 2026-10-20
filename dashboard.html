@@ -215,7 +215,7 @@ Messages
 <!-- PROJECTS -->
 
 
-<section class="projects">
+<!-- <section class="projects">
 
 
 <h2>
@@ -305,7 +305,7 @@ Personal figma designs
 
 
 </section>
-
+ -->
 
 
 
@@ -334,6 +334,65 @@ Quick Actions
 
 </section>
 
+<section class="add-story">
+
+    <h2>
+        <i class="fa-solid fa-pen"></i>
+        Create New Story
+    </h2>
+
+    <input 
+        type="text" 
+        id="story-title" 
+        placeholder="Story title"
+    >
+
+
+    
+
+    <select id="story-image">
+
+    <option value="./images/coding ttt.jpeg">
+        Coding
+    </option>
+
+    <option value="./images/bussiness.jpeg">
+        Business
+    </option>
+
+    <option value="./images/emergence Technology.jpeg">
+        Technology
+    </option>
+
+</select>
+
+
+
+
+    <textarea 
+        id="story-content" 
+        placeholder="Write your story..."
+    ></textarea>
+
+    <button id="publish-story">
+        Publish Story
+    </button>
+
+</section>
+<section class="my-stories">
+
+<h2>
+<i class="fa-solid fa-book"></i>
+My Stories
+</h2>
+
+
+<div id="my-stories-container">
+
+</div>
+
+
+</section>
 
 
 
@@ -343,6 +402,8 @@ Quick Actions
 
 
 <script type="module" src="dashboard.js"></script>
+<script type="module" src="dashboard-story.js"></script>
+<script type="module" src="dashboard-stories.js"></script>
 
 
 </body>

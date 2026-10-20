@@ -63,7 +63,7 @@ header a{
 
 .blog-card p{
     line-height:1.6;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .blog-card button{
@@ -89,10 +89,103 @@ grid-template-columns:1fr;
 
 }
 .blog-images{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 .blog-card img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+.blog-image{
+
+    width:100%;
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+    margin-bottom:15px;
+
+}
+
+
+.blog-card{
+
+    background:rgb(233, 223, 223);
+
+    padding:5px;
+
+    border-radius:15px;
+
+
+}
+.search-box{
+
+    margin:30px 0;
+    text-align:center;
+
+}
+
+.search-box input{
+
+    width:60%;
+    max-width:500px;
+
+    padding:15px;
+
+    border-radius:10px;
+    border:1px solid blue;
+
+    font-size:16px;
+
+}
+
+.search-box input:focus{
+
+    border-color:green;
+    outline:none;
+
+}
+
+
+
+.comment{
+
+    background:white;
+
+    padding:10px;
+
+    margin-top:10px;
+
+    border-radius:10px;
+
+}
+
+
+#comment-name,
+#comment-message{
+
+    width:50%;
+
+    padding:10px;
+
+    margin-top:10px;
+
+}
+
+
+#send-comment{
+
+    margin-top:10px;
+
+    padding:10px 20px;
+
+    cursor:pointer;
+
 }
